@@ -23,7 +23,7 @@
     <nav class="nav-flex">
         <div>
             <a href="./index.html">
-                <h4>GLAMORA</h4>
+                <h4>Aurelia Moda</h4>
             </a>
         </div>
         <div class="nav-icons">
@@ -199,9 +199,9 @@
                 <h4>INSPIRED BY SPORT, DESIGNED FOR LIFE</h4>
     
                 <div class="links flex">
-                    <a routerLink="/story" data-aos="fade-up">OUR STORY</a>
+                    <a routerLink="/story" data-aos="fade-up">Terms & Condition</a>
                     <a routerLink="/new-arrials" data-aos="fade-up">PRODUCTS</a>
-                    <a routerLink="/story" data-aos="fade-up">BLOG</a>
+                    <a routerLink="/story" data-aos="fade-up">Privacy Policy</a>
                 </div>
                 
             </div>
@@ -212,7 +212,7 @@
                     <h4>FIND A STORE NEAR YOU</h4>
                 </div>
     
-                <h6>Developed By GLAMORA | All Rights Reserved @ 2024</h6>
+                <h6>Developed By Aurelia Moda | All Rights Reserved @ 2024</h6>
             </div>
         </div>
     </div>
@@ -286,12 +286,12 @@
                     per += 1;
                     if (per >= cnt) clearInterval(percentage);
                     document.querySelector(".text").innerHTML = `<p>${data} items left</p>`;
-                }, 100);
+                }, 10);
                 cnt += 10;
 
                 if (cnt == 100) clearInterval(red);
                 bar.style.width = data + "%";
-            }, 100);
+            }, 20);
         }
 
         progress(23)

@@ -251,6 +251,7 @@ input[type="checkbox"]{
     justify-content: center;
     text-align: center;
     padding: 3rem 0;
+    padding-bottom: 1rem;
 }
 
 /* button{
@@ -318,9 +319,13 @@ input[type="checkbox"]{
     align-items: center;
     text-align: center;
 }
+
+.social-icons {
+    height: 50px;
+}
 .address h4{
     font-size: 18px;
-    margin: 30px;
+    margin: 10px;
 }
 
 @media (max-width: 600px) {
