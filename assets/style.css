@@ -121,7 +121,7 @@ section{
 }
 .mix-target img{
     width: 300px;
-    height: 300px;
+    height: auto;
     object-position: top;
 }
 
